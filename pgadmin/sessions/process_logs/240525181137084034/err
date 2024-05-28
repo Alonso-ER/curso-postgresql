@@ -1,0 +1,82 @@
+240525181138373470,pg_restore: connecting to database for restore
+
+240525181138427095,pg_restore: creating SEQUENCE "public.clap_id_seq"
+
+240525181138583172,pg_restore: creating TABLE "public.claps"
+
+240525181138649974,pg_restore: creating TABLE "public.comments"
+
+240525181138806291,pg_restore: creating SEQUENCE "public.comments_comment_id_seq"
+
+240525181138839048,pg_restore: creating SEQUENCE "public.post_id_seq"
+
+240525181138894666,pg_restore: creating TABLE "public.posts"
+
+240525181139073549,pg_restore: creating SEQUENCE "public.user_id_seq"
+
+240525181139224681,pg_restore: creating SEQUENCE "public.user_list_entry_seq"
+
+240525181139395123,pg_restore: creating TABLE "public.user_list_entry"
+
+240525181139506371,pg_restore: creating SEQUENCE "public.user_list_id_seq"
+
+240525181139627889,pg_restore: creating TABLE "public.user_lists"
+
+240525181139701092,pg_restore: creating TABLE "public.users"
+
+240525181139861399,pg_restore: processing data for table "public.claps"
+
+240525181139953458,pg_restore: processing data for table "public.comments"
+
+240525181140150443,pg_restore: processing data for table "public.posts"
+
+240525181140352740,pg_restore: processing data for table "public.user_list_entry"
+
+240525181140441717,pg_restore: processing data for table "public.user_lists"
+
+240525181140521007,pg_restore: processing data for table "public.users"
+
+240525181140772888,pg_restore: executing SEQUENCE SET clap_id_seq
+
+240525181140839182,pg_restore: executing SEQUENCE SET comments_comment_id_seq
+
+240525181140919476,pg_restore: executing SEQUENCE SET post_id_seq
+
+240525181140972481,pg_restore: executing SEQUENCE SET user_id_seq
+
+240525181141017499,pg_restore: executing SEQUENCE SET user_list_entry_seq
+
+240525181141039122,pg_restore: executing SEQUENCE SET user_list_id_seq
+
+240525181141062002,pg_restore: creating CONSTRAINT "public.claps claps_pkey"
+
+240525181141205756,pg_restore: creating CONSTRAINT "public.comments comments_pkey"
+
+240525181141519606,pg_restore: creating CONSTRAINT "public.posts posts_pkey"
+
+240525181141783570,pg_restore: creating CONSTRAINT "public.user_list_entry user_list_entry_pkey"
+
+240525181142054061,pg_restore: creating CONSTRAINT "public.user_lists user_lists_pkey"
+
+240525181142386972,pg_restore: creating CONSTRAINT "public.users users_pkey"
+
+240525181142531930,pg_restore: creating INDEX "public.comments_post_id_idx"
+
+240525181142688600,pg_restore: creating INDEX "public.comments_visible_idx"
+
+240525181142877364,pg_restore: creating FK CONSTRAINT "public.claps claps_post_id_fkey"
+
+240525181142917393,pg_restore: creating FK CONSTRAINT "public.claps claps_user_id_fkey"
+
+240525181142950209,pg_restore: creating FK CONSTRAINT "public.comments comments_post_id_fkey"
+
+240525181142984124,pg_restore: creating FK CONSTRAINT "public.comments comments_user_id_fkey"
+
+240525181143041904,pg_restore: creating FK CONSTRAINT "public.posts posts_created_by_fkey"
+
+240525181143072902,pg_restore: creating FK CONSTRAINT "public.user_list_entry user_list_entry_post_id_fkey"
+
+240525181143105776,pg_restore: creating FK CONSTRAINT "public.user_list_entry user_list_entry_user_list_id_fkey"
+
+240525181143144875,pg_restore: creating FK CONSTRAINT "public.user_lists user_lists_user_id_fkey"
+
